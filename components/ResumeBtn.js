@@ -5,8 +5,8 @@ import { fadeIn } from '../variants';
 const ProjectsBtn = () => {
   const handleDownloadResume = () => {
     const downloadLink = document.createElement('a');
-    downloadLink.href = '/Hemant_Soni_Resume.pdf'; 
-    downloadLink.download = 'Hemant_Soni_Resume.pdf'; 
+    downloadLink.href = '/Hemant Soni Resume.pdf'; 
+    downloadLink.download = 'Hemant Soni Resume.pdf'; 
     downloadLink.click();
   };
 
