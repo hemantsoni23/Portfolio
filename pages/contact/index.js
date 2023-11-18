@@ -16,8 +16,7 @@ const Contact = () => {
       message:e.target.message.value,
     }
     const JSONdata = JSON.stringify(data);
-    console.log(JSONdata);
-    const endpoint = '/api/send';
+    const endpoint = '/api';
 
     const options = {
       method: "POST",
@@ -30,11 +29,11 @@ const Contact = () => {
     const resData = await response.json();
     console.log(resData);
     if (resData.status === "success") {
-      alert("Message Sent.");
+      console.log("Message Sent.");
       e.target.reset();
       setEmailSubmitted(true);
     } else if (resData.status === "fail") {
-      alert("Message failed to send.");
+      console.log("Message failed to send.");
     }
     }
   return (

@@ -38,55 +38,55 @@ const aboutData = [
       {
         title: 'Web Development',
         icons: [
-          <FaHtml5 />,
-          <FaCss3 />,
-          <FaJs />,
-          <FaReact />,
-          <SiNextdotjs />,
-          <FaNodeJs />,
-          <SiExpress />,
+          <FaHtml5  key={1}/>,
+          <FaCss3  key={2}/>,
+          <FaJs  key={3}/>,
+          <FaReact  key={4}/>,
+          <SiNextdotjs  key={5}/>,
+          <FaNodeJs  key={6}/>,
+          <SiExpress  key={7}/>,
         ],
       },
       {
         title: 'Programming Languages',
         icons: [
-          <FaPython />,
-          <TbBrandCpp />,
-          <FaJava />,
-          <BsCCircle />,
+          <FaPython  key={1}/>,
+          <TbBrandCpp  key={2}/>,
+          <FaJava  key={3}/>,
+          <BsCCircle  key={4}/>,
         ],
       },
       {
         title: 'Libraries',
         icons: [
-          <SiPandas />,
-          <SiNumpy />,
-          <SiFlask />,
-          <SiStreamlit />,
+          <SiPandas  key={1}/>,
+          <SiNumpy  key={2}/>,
+          <SiFlask  key={3}/>,
+          <SiStreamlit  key={4}/>,
         ],
       },
       {
         title: 'Databases',
         icons: [
-          <SiMongodb />,
-          <SiMysql />,
-          <SiPostgresql />,
+          <SiMongodb  key={1}/>,
+          <SiMysql  key={2}/>,
+          <SiPostgresql  key={3}/>,
         ],
       },
       {
         title: 'Data Visualization',
         icons: [
-          <SiPowerbi />,
-          <SiJupyter />,
-          <RiFileExcel2Fill />,
+          <SiPowerbi  key={1}/>,
+          <SiJupyter  key={2}/>,
+          <RiFileExcel2Fill  key={3}/>,
         ],
       },
       {
         title: 'Tools',
         icons: [
-          <FaGithub />,
-          <FaDocker />,
-          <SiFramer />,
+          <FaGithub  key={1}/>,
+          <FaDocker  key={2}/>,
+          <SiFramer  key={3}/>,
         ],
       },
     ],
@@ -133,7 +133,7 @@ const About = () => {
             About <span className='text-accent'>Me</span>
           </motion.h2>
           <motion.p variants={fadeIn('right', 0.4)} initial={'hidden'} animate='show' exit='hidden' className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0 xl:leading-loose xl:tracking-wide">
-            Hello! I&apos;m Hemant Soni, a tech enthusiast exploring coding and technology. Beyond the screen, you&apos;ll find me indulging in my curiosity about space exploration. In my downtime, I enjoy movies, anime, and web series, finding storytelling a wellspring of creativity. Thanks !
+          Hi! I&apos;m Hemant Soni, a tech enthusiast diving into coding and technology. Beyond the screen, I delve into space exploration, and in my free time, I savor movies, anime, and web series, drawing inspiration from storytelling.
           </motion.p>
 
         </div>
