@@ -5,19 +5,19 @@ export const workSlides = {
       images: [
         {
           title: 'title',
-          path: '/thumb1.jpg',
+          path: '/project.jpg',
         },
         {
           title: 'title',
-          path: '/thumb2.jpg',
+          path: '/project.jpg',
         },
         {
           title: 'title',
-          path: '/thumb3.jpg',
+          path: '/project.jpg',
         },
         {
           title: 'title',
-          path: '/thumb4.jpg',
+          path: '/project.jpg',
         },
       ],
     },
@@ -25,19 +25,19 @@ export const workSlides = {
       images: [
         {
           title: 'title',
-          path: '/thumb4.jpg',
+          path: '/project.jpg',
         },
         {
           title: 'title',
-          path: '/thumb1.jpg',
+          path: '/project.jpg',
         },
         {
           title: 'title',
-          path: '/thumb2.jpg',
+          path: '/project.jpg',
         },
         {
           title: 'title',
-          path: '/thumb3.jpg',
+          path: '/project.jpg',
         },
       ],
     },
