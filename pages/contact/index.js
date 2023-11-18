@@ -86,11 +86,11 @@ const Contact = () => {
           <motion.h2 variants={fadeIn('up', 0.2)} initial='hidden' animate='show' exit='hidden' className='h2 text-center mb-12'>Let&apos;s <span className='text-accent'>Connect.</span></motion.h2>
           <motion.form variants={fadeIn('up', 0.4)} initial='hidden' animate='show' exit='hidden' onSubmit={handleSubmit} className='flex-1 flex flex-col gap-6 w-full mx-auto'>
             <div className='flex gap-x-6 w-full'>
-              <input type='text' id='name' placeholder='name' className='input ' />
-              <input type='text' id='email' placeholder='email' className='input' />
+              <input type='text' id='name' placeholder='name' className='input required' />
+              <input type='text' id='email' placeholder='email' className='input' required/>
             </div>
-            <input type='text' id='subject' placeholder='subject' className='input' />
-            <textarea id='message' placeholder='message' className=' textarea'></textarea>
+            <input type='text' id='subject' placeholder='subject' className='input' required/>
+            <textarea id='message' placeholder='message' className=' textarea' required></textarea>
             <button type='submit' className='btn rounded-full border border-white max-w-[170px] px-8 transition-all duration-300 flex items-center
           justify-center overflow-hidden hover:before-accent group'>
               <span className='group-hover:-translate-y-[120%] group-hover:opacity-0 transition-all duration-500 font-normal'>Send Mail</span>

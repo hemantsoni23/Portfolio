@@ -33,9 +33,7 @@ const Home = () => {
               />
             </span>
           </motion.p>
-          <div className='flex justify-center xl:hidden relative'>
-            <ResumeBtn />
-          </div>
+          
           <motion.div
             variants={fadeIn('down', 0.4)}
             initial='hidden'
