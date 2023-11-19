@@ -135,7 +135,7 @@ const About = () => {
           <motion.p variants={fadeIn('right', 0.4)} initial={'hidden'} animate='show' exit='hidden' className="hidden xl:flex lg:flex md:flex xl:max-w-[500px] lg:max-w-[900px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0 xl:leading-loose xl:tracking-wide">
           Hey there! I&apos;m Hemant Soni, a passionate tech enthusiast with a love for exploring the world of coding and technology. Beyond the screen, you&apos;ll find me indulging in my curiosity about space exploration, diving into articles and videos on the latest missions and discoveries. When not immersed in the tech world, I enjoy spending downtime watching movies, anime, and web series. I find storytelling in all its forms not only entertaining but also a source of creativity and new perspectives.
           </motion.p>
-          <motion.p variants={fadeIn('right', 0.4)} initial={'hidden'} animate='show' exit='hidden' className=" xl:hidden lg:hidden md:hidden max-w-[500px]  leading-loose">
+          <motion.p variants={fadeIn('right', 0.4)} initial={'hidden'} animate='show' exit='hidden' className=" xl:hidden lg:hidden md:hidden max-w-[500px] mb-6 leading-loose">
           Hi! I&apos;m Hemant Soni, a tech enthusiast diving into coding and technology. Beyond the screen, I delve into space exploration, and in my free time, I savor movies, anime, and web series, drawing inspiration from storytelling.
           </motion.p>
 
@@ -160,8 +160,8 @@ const About = () => {
                 >
                   <div className='font-light mb-2 md:mb-0'>{item.title}</div>
                   <div className='hidden md:flex'>-</div>
+                  <div className="flex-auto w-4 md:hidden" >-</div>
                   <div>{item.stage}</div>
-                  <div className="md:hidden" >{'   '}</div>
                   <div className='flex gap-x-2 md:gap-x-4'>
                     {item.icons?.map((icon, iconIndex) => {
                       return <div key={iconIndex} className='text-2xl text-white'>{icon}</div>
