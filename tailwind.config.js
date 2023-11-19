@@ -30,7 +30,7 @@ module.exports = {
         planetEarth:'url("/planetEarth.jpg")',
         galaxyNight:'url("/galaxy-night.jpg")',
         moon:'url("/moon.jpg")',
-        earth:'url("/earth.png")',
+        earth:'url("/earth.jpg")',
         site: 'url("/site-bg.svg")',
       },
       fontFamily: {
