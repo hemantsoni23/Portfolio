@@ -5,22 +5,22 @@ export const workSlides = {
       images: [
         {
           title: 'ChatViz',
-          path: '/chatviz.jpg',
+          path: '/chatviz.avif',
           url:'https://github.com/hemantsoni42/ChatViz',
         },
         {
           title: 'CelebLook',
-          path: '/celeblook.jpg',
+          path: '/celeblook.avif',
           url:'https://github.com/hemantsoni42/CelebLook',
         },
         {
           title: 'Pneumonia Detection',
-          path: '/pneumonia.jpg',
+          path: '/pneumonia.avif',
           url:'https://github.com/hemantsoni42/Pneumonia-detection',
         },
         {
           title: 'FarmHome',
-          path: '/farmhome.jpg',
+          path: '/farmhome.avif',
           url:'https://github.com/hemantsoni42/Farmhome',
         },
       ],
@@ -29,12 +29,12 @@ export const workSlides = {
       images: [
         {
           title: 'Data Analysis',
-          path: '/analysis.jpg',
+          path: '/analysis.avif',
           url:'https://github.com/hemantsoni42/Data-Science',
         },
         {
           title: 'Uno',
-          path: '/uno.jpg',
+          path: '/uno.avif',
           url:'https://github.com/hemantsoni42/Uno',
         },
       ],
