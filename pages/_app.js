@@ -19,12 +19,12 @@ function MyApp({ Component, pageProps }) {
         <link rel="icon" href="/logo1.svg" />
       </Head>
       <Layout>
-        <AnimatePresence mode='wait'>
-          <motion.div key={router.route} className='h-full'>
+        {/* <AnimatePresence mode='wait'> */}
+          <div key={router.route} className='h-full'>
             {/* <Transition /> */}
             <Component {...pageProps} />
-          </motion.div>
-        </AnimatePresence>
+          </div>
+        {/* </AnimatePresence> */}
       </Layout>
     </>
   );
