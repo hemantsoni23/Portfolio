@@ -77,7 +77,7 @@ const WorkSlider = () => {
                       <div className='flex flex-col md:flex-row items-center gap-x-2 text-[15px] md:text-[20px] tracking-[0.1rem] md:tracking-[0.2rem]'>
                         <div className='delay-100'>{image.title}</div>
                         <div className='translate-y-[500%] group-hover:translate-y-0 transition-all duration-300 delay-150'>Project</div>
-                        <div className='translate-y-[500%] group-hover:translate-y-0 transition-all duration-300 delay-200'><Link href={image.url} target='/blank' ><RiGithubLine/></Link></div>
+                        <div className='translate-y-[500%] group-hover:translate-y-0 transition-all duration-300 delay-200'><Link href={image.url} aria-label={image.title} target='/blank' ><RiGithubLine/></Link></div>
                       </div>
                     </div>
                   </div>

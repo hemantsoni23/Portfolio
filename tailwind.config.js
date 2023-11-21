@@ -27,10 +27,10 @@ module.exports = {
         accent: '#F13024',
       },
       backgroundImage: {
-        planetEarth:'url("/planetEarth.jpg")',
-        galaxyNight:'url("/galaxy-night.jpg")',
-        moon:'url("/moon.jpg")',
-        earth:'url("/earth.jpg")',
+        planetEarth:'url("/planetEarth.avif")',
+        galaxyNight:'url("/galaxy-night.avif")',
+        moon:'url("/moon.avif")',
+        earth:'url("/earth.avif")',
         site: 'url("/site-bg.svg")',
       },
       fontFamily: {

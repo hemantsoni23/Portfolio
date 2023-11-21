@@ -1,6 +1,4 @@
 import WorkSlider from '../../components/WorkSlider'
-import BottomLeftImg from "../../components/BottomLeftImg";
-
 import { motion } from 'framer-motion';
 import { fadeIn } from '../../variants';
 
@@ -8,7 +6,6 @@ const Work = () => {
   return (
     <div className='h-full  py-36 flex items-center'>
       <div className='w-full h-full right-0 bottom-0 bg-galaxyNight md:brightness-150 bg-cover bg-center bg-no-repeat  absolute mix-blend-color-dodge translate-z-0'>
-        <BottomLeftImg />
       </div>
       <div className='container mx-auto' >
         <div className='flex flex-col xl:flex-row gap-x-8 '>

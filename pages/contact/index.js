@@ -1,7 +1,6 @@
 import { BsArrowRight } from 'react-icons/bs';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../../variants';
-import BottomLeftImg from '../../components/BottomLeftImg';
 import { useState } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -80,13 +79,12 @@ const Contact = () => {
       <ToastContainer />
       <div className='container mx-auto py-32 text-center xl:text-left flex items-center justify-center h-full'>
       <div className='w-full h-full bottom-0  bg-moon bg-cover bg-center bg-no-repeat absolute mix-blend-color-dodge '>
-        <BottomLeftImg/>
       </div>
         <div className='flex flex-col w-full max-w-[700px] z-0'>
           <motion.h2 variants={fadeIn('up', 0.2)} initial='hidden' animate='show' exit='hidden' className='h2 text-center mb-12'>Let&apos;s <span className='text-accent'>Connect.</span></motion.h2>
           <motion.form variants={fadeIn('up', 0.4)} initial='hidden' animate='show' exit='hidden' onSubmit={handleSubmit} className='flex-1 flex flex-col gap-6 w-full mx-auto'>
             <div className='flex gap-x-6 w-full'>
-              <input type='text' id='name' placeholder='name' className='input required' />
+              <input type='text' id='name' placeholder='name' className='input ' required/>
               <input type='text' id='email' placeholder='email' className='input' required/>
             </div>
             <input type='text' id='subject' placeholder='subject' className='input' required/>

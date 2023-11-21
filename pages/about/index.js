@@ -29,7 +29,7 @@ import {
   SiExpress,
   SiPostgresql
 } from "react-icons/si";
-import BottomLeftImg from "../../components/BottomLeftImg";
+// import BottomLeftImg from "../../components/BottomLeftImg";
 
 const aboutData = [
   {
@@ -125,7 +125,7 @@ const About = () => {
   return (
     <div className='py-32 text-center xl:text-left'>
       <div className="w-full h-full center bottom-0 bg-planetEarth bg-cover bg-center bg-no-repeat absolute  mix-blend-color-dodge translate-z-0">
-        <BottomLeftImg />
+        {/* <BottomLeftImg /> */}
       </div>
       <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6">
         <div className="flex-1 flex flex-col justify-center">
