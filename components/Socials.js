@@ -17,7 +17,7 @@ const Socials = () => {
     <Link href={'https://www.kaggle.com/hemantsoni042'} target='/blank' aria-label="Kaggle" className='hover:text-accent transition-all duration-300'>
       <FaKaggle className='w-[22px] h-[22px]'/>
     </Link>
-    <Link href={'https://drive.google.com/file/d/1RoCzFE_y4uMKWlEABFU25MGKsJTmCxj6/view?usp=sharing'} target='/blank'  aria-label="Resume" className='hover:text-accent transition-all duration-300'>
+    <Link href={'https://drive.google.com/file/d/16zZqValeEB50HuPEPLwVfrsmAcx4pUWF/view?usp=sharing'} target='/blank'  aria-label="Resume" className='hover:text-accent transition-all duration-300'>
       <RiGraduationCapLine className='w-[25px] h-[25px]'/>
     </Link>
   </div>
