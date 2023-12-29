@@ -18,7 +18,7 @@ const ResumeBtn = () => {
         <span className='group-hover:-translate-y-[120%] group-hover:opacity-0 transition-all duration-500 font-normal'>
           Download Resume
         </span>
-        <RiGraduationCapLine className='-translate-y-[120%] opacity-0 group-hover:flex group-hover:-translate-y-0 group-hover:opacity-100 transition-all duration-300 absolute text-[22px]' />
+        {/* <RiGraduationCapLine className='-translate-y-[120%] opacity-0 group-hover:flex group-hover:-translate-y-0 group-hover:opacity-100 transition-all duration-300 absolute text-[22px]' /> */}
       </button>
     </div>
   );
