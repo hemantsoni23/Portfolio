@@ -1,1 +1,1 @@
-# Hemant Soni Portfolio Website
+# ethan-portfolio-starter
