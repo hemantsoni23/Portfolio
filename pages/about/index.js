@@ -124,7 +124,7 @@ const About = () => {
 
   return (
     <div className='py-32 text-center xl:text-left'>
-      <div className="w-full h-full center bottom-0 bg-planetEarth bg-cover bg-center bg-no-repeat absolute  mix-blend-color-dodge translate-z-0">
+      <div className="w-full h-full center bottom-0 bg-planetEarth bg-cover bg-center bg-no-repeat absolute  mix-blend-screen translate-z-0">
         {/* <BottomLeftImg /> */}
       </div>
       <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6">

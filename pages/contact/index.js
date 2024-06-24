@@ -78,7 +78,7 @@ const Contact = () => {
     <div className='h-full bg-primary/30'>
       <ToastContainer />
       <div className='container mx-auto py-32 text-center xl:text-left flex items-center justify-center h-full'>
-      <div className='w-full h-full bottom-0  bg-moon bg-cover bg-center bg-no-repeat absolute mix-blend-color-dodge '>
+      <div className='w-full h-full bottom-0  bg-moon bg-cover bg-center bg-no-repeat absolute mix-blend-screen '>
       </div>
         <div className='flex flex-col w-full max-w-[700px] z-0'>
           <motion.h2 variants={fadeIn('up', 0.2)} initial='hidden' animate='show' exit='hidden' className='h2 text-center mb-12'>Let&apos;s <span className='text-accent'>Connect.</span></motion.h2>
