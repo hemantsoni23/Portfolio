@@ -8,7 +8,7 @@ const Socials = () => {
       <Link href={'https://www.linkedin.com/in/hemant-soni-052199205/'} target='/blank' aria-label="LinkedIn" title="LinkedIn" className='hover:text-accent transition-all duration-300'>
         <RiLinkedinLine className='w-[25px] h-[25px]' />
       </Link>
-      <Link href={'https://github.com/hemantsoni42'} target='/blank' aria-label="Github" title="Github" className='hover:text-accent transition-all duration-300'>
+      <Link href={'https://github.com/hemantsoni23'} target='/blank' aria-label="Github" title="Github" className='hover:text-accent transition-all duration-300'>
         <RiGithubLine className='w-[25px] h-[25px]' />
       </Link>
       <Link href={'/contact'} aria-label="Mail" title="Mail" className='hover:text-accent transition-all duration-300'>
