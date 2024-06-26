@@ -6,11 +6,14 @@ import {
   HiEnvelope,
 } from 'react-icons/hi2';
 
+import { MdWork } from 'react-icons/md';
+
 // nav data
 export const navData = [
   { name: 'home', path: '/', icon: <HiHome /> },
   { name: 'about', path: '/about', icon: <HiUser /> },
-  { name: 'work', path: '/work', icon: <HiViewColumns /> },
+  { name: 'skills', path: '/skills', icon: <HiViewColumns /> },
+  { name: 'work', path: '/work', icon: <MdWork /> },
   {
     name: 'contact',
     path: '/contact',

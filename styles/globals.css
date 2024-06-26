@@ -18,6 +18,18 @@
   color: #f13024;
 }
 
+.bg-dark {
+  background-color: #1e1e1e;
+}
+
+.bg-darkGray {
+  background-color: #2d2d2d;
+}
+
+.shadow-lg {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+}
+
 @layer base {
   body {
     @apply bg-secondary overflow-hidden leading-relaxed;
