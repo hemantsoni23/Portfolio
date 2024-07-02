@@ -49,7 +49,7 @@ import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
 import {Pagination} from 'swiper';
 import Link from 'next/link';
-import { RiGithubLine} from 'react-icons/ri';
+import { FcAbout } from "react-icons/fc";
 
 import {BsArrowRight} from 'react-icons/bs';
 import Image from 'next/image';
@@ -84,7 +84,7 @@ const WorkSlider = () => {
                           pathname: '/work/details',
                           query: {title: image.title},
                         }} passHref>
-                        <RiGithubLine/></Link></div>
+                        <FcAbout /></Link></div>
                       </div>
                     </div>
                   </div>

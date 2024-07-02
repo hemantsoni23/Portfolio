@@ -7,12 +7,12 @@ import Link from 'next/link';
 const projectDetails = {
   ChatViz: {
     title: 'ChatViz',
-    paths: ['/chatviz.avif', '/chatviz2.avif'],
-    description: 'ChatViz is a project that visualizes chat data.',
-    goals: ['Visualize data', 'User-friendly interface'],
-    techStack: 'React, D3.js, Node.js',
-    deployLink: 'https://chatviz.com',
-    codeLink: 'https://github.com/hemantsoni42/ChatViz',
+    paths: ['/chatviz.avif'],
+    description: 'Chatviz is a comprehensive WhatsApp chat analysis website designed to provide insights into chat conversations. Leveraging Streamlit, Python, Pandas, NumPy, NLTK, Plotly, and other Python libraries, Chatviz offers users a user-friendly interface to explore and analyze WhatsApp chat data. The project is deployed on Streamlit Cloud, ensuring accessibility from anywhere with an internet connection. With features like caching and threading, Chatviz ensures fast analysis, even with large datasets.',
+    goals: ['Provide users with detailed insights into WhatsApp chat conversations.', 'Offer a user-friendly interface for easy exploration and analysis of chat data.', 'Utilize advanced techniques and libraries to generate meaningful visualizations and statistics.', 'Deploy the project on Streamlit Cloud for accessibility and convenience.'],
+    techStack: 'Streamlit, Python, Pandas, NumPy, NLTK (Natural Language Toolkit), Plotly',
+    deployLink: 'https://chatviz-2303.streamlit.app/',
+    codeLink: 'https://github.com/hemantsoni23/ChatViz/tree/final',
   },
   CelebLook: {
     title: 'CelebLook',
@@ -23,7 +23,6 @@ const projectDetails = {
     deployLink: null,
     codeLink: 'https://github.com/hemantsoni42/CelebLook',
   },
-  // Add other projects here
 };
 
 const ProjectDetails = () => {
