@@ -3,6 +3,16 @@
 import nodemailer from "nodemailer"
 
 const handler = async(req, res) => {
+  if (req.method === 'OPTIONS') {
+    // Handle preflight requests (used for CORS checks)
+    res.setHeader('Access-Control-Allow-Credentials', true);
+    res.setHeader('Access-Control-Allow-Origin', '*'); //specify 'http://localhost:3001' instead of '*'
+    res.setHeader('Access-Control-Allow-Methods', 'GET,POST,PUT,DELETE');
+    res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+    res.status(200).end();
+    return;
+  }
+
   if(req.method === 'POST'){
     const { email, subject, message } = req.body;
 
